@@ -9,3 +9,7 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     return "hello leancloud"
+
+@app.route("/xiu")
+def xiu():
+    return "<a href=\"http://www.insword.cn\">insword</a>"
